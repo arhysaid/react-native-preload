@@ -16,7 +16,7 @@ export default class Skeleton extends Component {
   }
   animate () {
     this.animatedValue.setValue(0);
-    console.log(this.animatedValue);
+    
     Animated.timing(
       this.animatedValue,
       {
